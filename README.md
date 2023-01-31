@@ -1,5 +1,17 @@
-# Primeira página de cadastro 
- 
- ### Olá, bem vindo ao meu primeiro formulário de cadastro 
+<h1 align="center">Cadastro</h1>
 
-  - Foi usado HTML e CSS para criar este formulário.
+
+## Descrição do Projeto
+<p align="center">Meu primeiro formulário de cadastro</p>
+
+
+### Features
+
+- [x] layout da página feito em HTML e CSS 
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [VSCode](https://code.visualstudio.com/)
+
