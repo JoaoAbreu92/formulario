@@ -1,0 +1,194 @@
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade Resgistro de usuário</title>
+        <meta charset="utf-8">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <style>
+            body{
+                font-family: arial,helvetica, sans-serif;
+                margin: 0px;
+                background-color: gainsboro;
+            }
+            
+            *{
+                box-sizing: border-box;
+            }
+            
+            .img1{
+            height: 60;
+            }
+            
+            .foto{
+            position: absolute;
+            border-radius: 100px;
+            width: 120px;
+            height: 120px;
+            margin-left: -5px;
+            margin-top: -70px;
+            border: 1px solid black;
+        }
+            
+            .conteiner{
+                width: 100%;
+                padding: 15px;
+            }
+            
+            .formulario{
+                background: #fff;
+                margin-top: 150px;
+                padding: 3px;
+            }
+            
+            h1{
+                text-align: center;
+                color: orangered;
+                font-size: 40px;
+                cursor: pointer;
+            }
+            
+            h1:hover{
+                 transition: 0.3s;
+                color: darkorange;
+            }
+            
+            input[type="text"],
+            input[type="password"]{
+                font-size: 20px;
+                width: 82%;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+            }
+            
+            .input-conteiner{
+                margin-bottom: 15px;
+                border: 1px solid #aaa;
+            }
+            .icon{
+                min-width: 50px;
+                text-align: center;
+                color: #999;
+            }
+            
+            .button{
+                border: none;
+                width: 100%;
+                color: white;
+                font-size: 20px;
+                background-color: orangered;
+                padding: 15px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.4s;
+            }
+            .button:hover{
+                background-color:darkorange;
+            }
+            p{
+                text-align: center;
+            }
+            
+            .link{
+                text-decoration: none;
+                color: orangered;
+                font-weight: 600;
+            }
+            .link:hover{
+                transition: 0.3s;
+                color: darkorange;
+            }
+            
+                .formulario{
+                    margin: auto;
+                    width: 500px;
+                    margin-top: 200px;
+                    border-radius: 1.5%; 
+            }   
+            
+           .genero{
+                text-align: center;
+               height: 50px;
+              
+            }
+            .opcao{
+                text-align: center;
+                height: 50px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <form class="formulario">
+        
+        <h1>Cadastro</h1>
+            <div class="conteiner">
+            
+                <div class="img1">
+                    <img class="foto" src="https://freegametips.com/wp-content/uploads/2020/03/1583443075_PS439s-God-of-War-this-is-the-hilarious-comb-shaped-Easter-1200x900.jpg">
+                </div>
+            
+            <div class="input-conteiner">
+                <i class="fas fa-user-alt icon"></i>
+                <input type="text" placeholder="Seu nome completo">
+                
+                </div>
+                
+                
+                 <div class="input-conteiner">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Email">
+                
+                </div>
+                
+                
+                <div class="input-conteiner">
+                <i class="fas fa-user-check icon"></i>
+                <input type="text" placeholder="Nome de usuário">
+                
+                </div>
+                
+                
+                <div class="input-conteiner">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Senha">
+                
+                </div>
+                
+                
+                <div class="input-conteiner">
+                <i class="fas fa-lock icon"></i>
+                <input type="password" placeholder="Confirme sua senha">
+                </div>
+                
+                
+                    <div class="genero">
+                        <input type="radio" name="tSexo" id="cMasc"/>Masculino
+                        <input type="radio" name="tSexo" id="cFem"/>Feminino
+                    </div>
+                
+                <div class="opcao">
+                    <select name="Qual nacionalidade" id="nacionalidade">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Africadosul">África do Sul</option> 
+                        <option value="Alemanha">Alemanha</option> 
+                        <option value="Alstralia">Alstrália</option> 
+                        <option value="Belgica">Bélgica</option> 
+                        <option value="Bolivia">Bolívia</option> 
+                        <option value="Brasil">Brasil</option> 
+                        <option value="camaroes">Camarões</option> 
+                        <option value="Canada">Canadá</option>
+                        <option value="Dinamarca">Dinamarca</option>
+                        <option value="Egito">Egito</option>
+                        <option value="Equador">Equador</option>
+                        <option value="Espanha">Espanha</option>
+                        <option value="Estadosunidos">Estados Unidos</option>
+                    </select><br>
+                </div>
+                    <input type="submit" value="Confirmar cadastro" class="button">
+                        <p>Ao confirmar seu cadastro, você aceita nossos condições de uso e politicas de privacidade.</p>
+                        <p>ja tem uma conta? <a class="link" href="">Iniciar login</a></p>
+                
+            </div>        
+        </form>
+    </body>
+</html>
